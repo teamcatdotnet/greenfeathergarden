@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #000000;
+	color: rgba(0,0,0,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h1 {
+	padding:40px 0px 40px 70px;
+	color: rgba(0,0,0,1.00);
+	text-shadow: 0 0 16px #FFFFFF;
+	background-image: url(images/gfLogo.png);
+	background-repeat: no-repeat;
+}
+
+main img {
+	
+}
+
+main p {
+	padding: 10px 30px;
+	clear:left;
+	background-color:rgba(255,255,255,0.50);
+}
+
+footer {
+	float:right;
+	width:100%;
+	text-align: right;
+	margin-bottom: 20px;
+	color:rgba(255,255,255,0.50);
+	background-color:rgba(10,111,12,0.77);
+}
+
+.mainBox {
+	height: 580px;
+	background-color: #000000;
+	background-image: url(images/fernBack.jpg);
+	background-size: cover;
+	color:rgba(0,0,0,1.00);
+}
+
+/* Tablet */
+@media (max-width:768px) {
+	h1{
+		font-size: 28px;
+		padding-top:20px;
+	}
+}
+/* Mobile */
+@media (max-width:440px) {
+	h1{
+		font-size:23px;
+		padding-top:30px;
+	}
+}
